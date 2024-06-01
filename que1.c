@@ -7,7 +7,12 @@ int main()
     printf("Enter your year : ");
     scanf("%d", &leapYear);
 
-    if(leapYear == )
+    if(leapYear %4 == 0){
+        printf("It is a leap year");
+    }
+    else{
+        printf("It is not a leap year):
+    }
 
     return 0;
 }
